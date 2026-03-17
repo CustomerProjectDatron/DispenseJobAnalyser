@@ -25,7 +25,7 @@ npm run preview
 ## GitHub Pages
 
 - Der Workflow in [.github/workflows/deploy-pages.yml](.github/workflows/deploy-pages.yml) baut und veroeffentlicht bei Push auf `main`.
-- Die `base`-URL fuer GitHub Pages ist in [vite.config.ts](vite.config.ts) auf `/DispenseJobAnalyser/` gesetzt.
+- Die Vite-Basis ist in [vite.config.ts](vite.config.ts) auf relative Pfade (`./`) gesetzt, damit Assets auf GitHub Pages robust geladen werden.
 
 ## MVP Funktionen
 
